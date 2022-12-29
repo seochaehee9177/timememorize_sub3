@@ -1,0 +1,121 @@
+*{margin:0;padding:0;}
+a{text-decoration: none;color: #000;}
+ul{list-style: none;}
+body{font-family: '바른공군체';
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;}
+
+#wrapwrap{overflow: hidden;}
+
+/*header1*/
+#header1{width: 100%; background:rgb(184, 104, 104); height: 200px;}
+.header1_inner{width: 1320px;margin:  auto;}
+.header1_inner img{padding-top:40px; }
+
+.link1{float: right;}
+.link1 li{float: left; padding-top: 20px;}
+.link1 li a{color:#fff;margin-right: 10px;}
+.link1 li a:hover{display: block; color:#f17575;}
+           
+.nav{position:absolute;/*자식*/
+    top:100px; left:50%; margin-left:-428px;
+}
+.nav>li{float:left; position:relative;/*sub의 기준*/}
+.nav>li>a{display:block; font-weight: bold;
+        font-size:30px;
+        padding:37.5px 55px; color:#fff;
+}
+.nav>li>a:hover{color:#f17575;}
+
+.sub{display:none; position:absolute; width:100%;
+    z-index: 2;
+}
+.sub li a{display:block;
+    background: #b86868;
+    padding:20px 0; text-align: center;
+    color:#fff; font-size:20px; font-family: '바른공군체';
+    border-top:1px solid rgba(255,255,255,0.3);
+    border-bottom:1px solid rgba(0,0,0,0.3);
+}
+.sub li a:hover {background-color: #cc9393;}
+.nav li:hover .sub{display:block;}
+
+/*mainbanner*/
+#mainbanner{width:100%;background: url(images/mainbanner.jpg)no-repeat center top;height:717px;
+            position: relative;}
+.mainbanner_h1{position: absolute; width:1320px; top:20%; left:20%; color: #fff; font-size:60px;
+font-family: 'Noto Sans CJK';}
+
+/*wrap1*/
+#wrap1{background: url(images/bg1.jpg)no-repeat center top; height:1225px;}
+.con1{width:1320px; margin: 0 auto; background:rgb(59, 31, 31); height:1225px;}
+.card{color:#fff;
+        padding-top: 50px; height: 300px; padding-bottom: 50px;}
+.card_left{float:left;padding-left:70px; padding-right: 70px;}
+.text_left{float:left;}
+.card_h2{padding-bottom: 20px; color: rgb(245, 151, 88); font-family: 'Noto Sans CJK';}
+.card_p{font-family: 'Noto Sans CJK';}
+.card_btn{display: inline-block;border:solid 1px #fff; padding: 5px 30px; color:#fff;
+            margin-top: 30px;}
+.card_btn:hover{color: rgb(73, 25, 25);background: rgb(121, 84, 84); border: #000;}
+
+#wrap1 img{width:472px; height:301px; overflow:hidden;transition:all 1s;}
+#wrap1 img:hover{transform:scale(0.8,0.8);transition:all 1s; width:472px;height:301px; } 
+
+
+/*warp2*/
+#wrap2{background: url(images/bg2.jpg)no-repeat center top; height: 1315px;}
+.con2{width: 1320px; margin: 0 auto; background:rgb(150, 105, 105); height: 1315px;}
+.voucher{padding-top: 70px;}
+.voucher img{ padding:5px; height:180px; margin-left:50px; width:380px;
+                box-sizing:border-box; text-align: center; border: solid 1px #ccc;
+                background: rgb(255, 255, 255,0.5);}
+.voucher img:nth-child(1){margin-left:45px;}
+
+.voucher_text{text-align:center;background:rgb(185, 171, 171,0.5);height:200px;width:1320px;
+                color: rgb(116, 69, 69);margin-top:30px;}
+.voucher_h1{padding-top:40px;}
+.voucher_p{padding-top:30px;}
+
+/*gift*/
+.gift{width:1320px; margin: 0 auto;}
+.giftcon{float:left; padding:100px 0 0 100px; color: #fff;}
+.con2_img_left{float: left;}
+.con2_text_right{float: left; padding-left: 80px;}
+.con2_text_right_h3{font-size: 30px;padding:30px 0 70px 0}
+.con2_text_right_p{font-size: 20px;font-family: 'Noto Sans CJK';}
+
+/*wrap3*/
+#wrap3{width:100%; height:1500px; background: url(images/bg3.jpg)no-repeat center top;
+        text-align: center;}
+.con3{background:rgb(102, 79, 79); width: 1320px; margin: 0 auto; height: 1500px;}
+.con3_1{padding-top:80px; height:400px; width: 1421px;}
+.con3_img{float: left; padding-left:70px;}
+.con3_text{float: left; padding:70px 0 0 135px;}
+.con3_h1{color: #fff; line-height: 50px; font-size: 35px;}
+.con3_text_h1{margin-top: 50px; display: inline-block; background: rgb(243 151 139);
+                padding: 5px 7px;}
+.con3_text_h2{margin-top: 50px; display: inline-block; background: rgb(249 223 184);
+    padding: 5px 7px;}            
+.con3_text_h3{margin-top: 50px; display: inline-block; background: rgb(243 196 134);
+    padding: 5px 7px;}            
+
+#wrap3 img{width:600px; height:370px; overflow:hidden; transition:all 1s;}
+#wrap3 img:hover{transform:scale(0.8,0.8);transition:all 1s; width:600px;height:370px;} 
+    /*footer*/
+#footer{width: 100%; height: 200px;background: rgb(184 104 104);}
+.foote_inner{width: 1320px; margin: 0 auto;}
+
+
+.f_ul{color: #fff; padding-top: 30px; float: left; font-size: 15px;}
+.foote_inner .img{float: left; padding: 80px 0 0 200px;}
+.right{float: right;}
+.right p{color: #fff; padding-top: 50px;font-size: 15px;}
+
+
+.f_u2 li{float: left; margin-right: 20px;}
+.f_u2 li a{color: #fff;}
+
+.f_u2{padding-top: 30px;} 
+
